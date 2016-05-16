@@ -355,7 +355,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Cédric Luthi";
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iOS Artwork Extractor" */;
@@ -457,6 +457,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iOS_Artwork_Extractor_Prefix.pch;
 				INFOPLIST_FILE = "iOS_Artwork_Extractor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.pitaya.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "iOS Artwork Extractor";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -470,6 +472,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iOS_Artwork_Extractor_Prefix.pch;
 				INFOPLIST_FILE = "iOS_Artwork_Extractor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.pitaya.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "iOS Artwork Extractor";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -479,6 +483,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
